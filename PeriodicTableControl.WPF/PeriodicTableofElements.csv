@@ -1,0 +1,119 @@
+Atomic Number;Element;Symbol;Atomic Weight;Period;Group;Phase;Most Stable Crystal;Type;Ionic Radius;Atomic Radius;Electronegativity;First Ionization Potential;Density;Melting Point (K);Boiling Point (K);Isotopes;Discoverer;Year of Discovery;Specific Heat Capacity;Electron Configuration;Display Row;Display Column
+1;Hydrogen;H;100.794;1;1;gas;;Nonmetal;0.012;0.79;02. Feb;135.984;0.00008988;14.175;20.28;3;Cavendish;1766;14.304;1s1;1;1
+2;Helium;He;4.002.602;1;18;gas;;Noble Gas;;0.49;;245.874;0.0001785;;Apr 22;5;Janssen;1868;5.193;1s2;1;18
+3;Lithium;Li;6.941;2;1;solid;bcc;Alkali Metal;0.76;02. Jan;0.98;53.917;0.534;453.85;1615;5;Arfvedson;1817;3.582;2s1;2;1
+4;Beryllium;Be;9.012.182;2;2;solid;hex;Alkaline Earth Metal;0.35;01. Apr;Jan 57;93.227;Jan 85;1560.15;2742;6;Vaulquelin;1798;1.825;2s2;2;2
+5;Boron;B;10.811;2;13;solid;rho;Metalloid;0.23;01. Feb;02. Apr;8.298;Feb 34;2573.15;4200;6;Gay-Lussac;1808;1.026;2s2 2p1;2;13
+6;Carbon;C;120.107;2;14;solid;hex;Nonmetal;;0.91;Feb 55;112.603;2.267;3948.15;4300;7;Prehistoric;;0.709;2s2 2p2;2;14
+7;Nitrogen;N;140.067;2;15;gas;;Nonmetal;0.13;0.75;03. Apr;145.341;0.0012506;63.29;77.36;8;Rutherford;1772;01. Apr;2s2 2p3;2;15
+8;Oxygen;O;159.994;2;16;gas;;Nonmetal;01. Apr;0.65;Mrz 44;136.181;0.001429;50.5;90.2;8;Priestley/Scheele;1774;0.918;2s2 2p4;2;16
+9;Fluorine;F;189.984.032;2;17;gas;;Halogen;01. Mrz;0.57;Mrz 98;174.228;0.001696;53.63;85.03;6;Moissan;1886;0.824;2s2 2p5;2;17
+10;Neon;Ne;201.797;2;18;gas;;Noble Gas;;0.51;;215.645;0.0008999;24.703;27. Jul;8;Ramsay and Travers;1898;01. Mrz;2s2 2p6;2;18
+11;Sodium;Na;2.298.976.928;3;1;solid;bcc;Alkali Metal;1;02. Feb;0.93;51.391;0.971;371.15;1156;7;Davy;1807;1.228;3s1;3;1
+12;Magnesium;Mg;24.305;3;2;solid;hex;Alkaline Earth Metal;0.72;01. Jul;Jan 31;76.462;1.738;923.15;1363;8;Black;1755;1.023;3s2;3;2
+13;Aluminum;Al;269.815.386;3;13;solid;fcc;Metal;0.54;01. Aug;Jan 61;59.858;2.698;933.4;2792;8;Wöhler;1827;0.897;3s2 3p1;3;13
+14;Silicon;Si;280.855;3;14;solid;fcc;Metalloid;0.4;01. Mai;01. Sep;81.517;23.296;1683.15;3538;8;Berzelius;1824;0.705;3s2 3p2;3;14
+15;Phosphorus;P;30.973.762;3;15;solid;cub;Nonmetal;0.38;01. Feb;Feb 19;104.867;Jan 82;317.25;553;7;BranBrand;1669;0.769;3s2 3p3;3;15
+16;Sulfur;S;32.065;3;16;solid;orth;Nonmetal;0.37;01. Jan;Feb 58;Okt 36;2.067;388.51;717.8;10;Prehistoric;;0.71;3s2 3p4;3;16
+17;Chlorine;Cl;35.453;3;17;gas;;Halogen;01. Aug;0.97;Mrz 16;129.676;0.003214;172.31;239.11;11;Scheele;1774;0.479;3s2 3p5;3;17
+18;Argon;Ar;39.948;3;18;gas;;Noble Gas;;0.88;;157.596;0.0017837;83.96;87.3;8;Rayleigh and Ramsay;1894;0.52;3s2 3p6;3;18
+19;Potassium;K;390.983;4;1;solid;bcc;Alkali Metal;01. Apr;02. Aug;0.82;43.407;0.862;336.5;1032;10;Davy;1807;0.757;4s1;4;1
+20;Calcium;Ca;40.078;4;2;solid;fcc;Alkaline Earth Metal;0.99;02. Feb;1;61.132;Jan 54;1112.15;1757;14;Davy;1808;0.647;4s2;4;2
+21;Scandium;Sc;44.955.912;4;3;solid;hex;Transition Metal;0.75;02. Jan;Jan 36;65.615;2.989;1812.15;3109;15;Nilson;1878;0.568;3d1 4s2;4;3
+22;Titanium;Ti;47.867;4;4;solid;hex;Transition Metal;0.61;2;Jan 54;68.281;Apr 54;1933.15;3560;9;Gregor;1791;0.523;3d2 4s2;4;4
+23;Vanadium;V;509.415;4;5;solid;bcc;Transition Metal;0.59;01. Sep;Jan 63;67.462;06. Nov;2175.15;3680;9;   del Rio;1801;0.489;3d3 4s2;4;5
+24;Chromium;Cr;519.961;4;6;solid;bcc;Transition Metal;0.52;01. Sep;Jan 66;67.665;Jul 15;2130.15;2944;9;Vauquelin;1797;0.449;3d5 4s1;4;6
+25;Manganese;Mn;54.938.045;4;7;solid;bcc;Transition Metal;0.46;01. Aug;Jan 55;7.434;Jul 44;1519.15;2334;11;Gahn, Scheele;1774;0.479;3d5 4s2;4;7
+26;Iron;Fe;55.845;4;8;solid;bcc;Transition Metal;0.65;01. Jul;Jan 83;79.024;7.874;1808.15;3134;10;Prehistoric;;0.449;3d6 4s2;4;8
+27;Cobalt;Co;58.933.195;4;9;solid;hex;Transition Metal;0.75;01. Jul;Jan 88;7.881;Aug 86;1768.15;3200;14;Brandt;1735;0.421;3d7 4s2;4;9
+28;Nickel;Ni;586.934;4;10;solid;fcc;Transition Metal;0.69;01. Jun;Jan 91;76.398;8.912;1726.15;3186;11;Cronstedt;1751;0.444;3d8 4s2;4;10
+29;Copper;Cu;63.546;4;11;solid;fcc;Transition Metal;0.73;01. Jun;01. Sep;77.264;Aug 96;1357.75;2835;11;Prehistoric;;0.385;3d10 4s1;4;11
+30;Zinc;Zn;65.38;4;12;solid;hex;Transition Metal;0.74;01. Mai;Jan 65;93.942;7.134;692.88;1180;15;Prehistoric;;0.388;3d10 4s2;4;12
+31;Gallium;Ga;69.723;4;13;solid;orth;Metal;0.62;01. Aug;Jan 81;59.993;5.907;302.91;2477;14;de Boisbaudran;1875;0.371;3d10 4s2 4p1;4;13
+32;Germanium;Ge;72.64;4;14;solid;fcc;Metalloid;0.53;01. Mai;02. Jan;78.994;5.323;1211.45;3106;17;Winkler;1886;0.32;3d10 4s2 4p2;4;14
+33;Arsenic;As;749.216;4;15;solid;rho;Metalloid;0.58;01. Mrz;Feb 18;97.886;5.776;1090.15;887;14;Albertus Magnus;1250;0.329;3d10 4s2 4p3;4;15
+34;Selenium;Se;78.96;4;16;solid;hex;Nonmetal;0.5;01. Feb;Feb 55;97.524;4.809;494.15;958;20;Berzelius;1817;0.321;3d10 4s2 4p4;4;16
+35;Bromine;Br;79.904;4;17;liq;;Halogen;2;01. Jan;Feb 96;118.138;3.122;266.05;332;19;Balard;1826;0.474;3d10 4s2 4p5;4;17
+36;Krypton;Kr;83.798;4;18;gas;;Noble Gas;;1;;139.996;0.003733;115.93;119.93;23;Ramsay and Travers;1898;0.248;3d10 4s2 4p6;4;18
+37;Rubidium;Rb;854.678;5;1;solid;bcc;Alkali Metal;01. Mai;3;0.82;41.771;1.532;312.79;961;20;Bunsen and Kirchoff;1861;0.363; ;5;1
+38;Strontium;Sr;87.62;5;2;solid;fcc;Alkaline Earth Metal;01. Jan;02. Mai;0.95;56.949;Feb 64;1042.15;1655;18;Davy;1808;0.301;5s2;5;2
+39;Yttrium;Y;8.890.585;5;3;solid;hex;Transition Metal;0.9;02. Mrz;Jan 22;62.173;4.469;1799.15;3609;21;Gadolin;1794;0.298;4d1 5s2;5;3
+40;Zirconium;Zr;91.224;5;4;solid;hex;Transition Metal;0.72;02. Feb;Jan 33;66.339;6.506;2125.15;4682;20;Klaproth;1789;0.278;4d2 5s2;5;4
+41;Niobium;Nb;9.290.638;5;5;solid;bcc;Transition Metal;0.69;02. Jan;01. Jun;67.589;Aug 57;2741.15;5017;24;Hatchett;1801;0.265;4d4 5s1;5;5
+42;Molybdenum;Mo;95.96;5;6;solid;bcc;Transition Metal;0.65;2;Feb 16;70.924;Okt 22;2890.15;4912;20;Scheele;1778;0.251;4d5 5s1;5;6
+43;Technetium;Tc;98;5;7;artificial;hex;Transition Metal;0.56;2;01. Sep;Jul 28;11. Mai;2473.15;5150;23;Perrier and Segré;1937;;4d5 5s2;5;7
+44;Ruthenium;Ru;101.07;5;8;solid;hex;Transition Metal;0.68;01. Sep;02. Feb;73.605;Dez 37;2523.15;4423;16;Klaus;1844;0.238;4d7 5s1;5;8
+45;Rhodium;Rh;1.029.055;5;9;solid;fcc;Transition Metal;0.68;01. Aug;Feb 28;74.589;Dez 41;2239.15;3968;20;Wollaston;1803;0.243;4d8 5s1;5;9
+46;Palladium;Pd;106.42;5;10;solid;fcc;Transition Metal;0.86;01. Aug;02. Feb;83.369;12. Feb;1825.15;3236;21;Wollaston;1803;0.244;4d10;5;10
+47;Silver;Ag;1.078.682;5;11;solid;fcc;Transition Metal;01. Mrz;01. Aug;Jan 93;75.762;10.501;1234.15;2435;27;Prehistoric;;0.235;4d10 5s1;5;11
+48;Cadmium;Cd;112.411;5;12;solid;hex;Transition Metal;0.97;01. Jul;Jan 69;89.938;Aug 69;594.33;1040;22;Stromeyer;1817;0.232;4d10 5s2;5;12
+49;Indium;In;114.818;5;13;solid;tet;Metal;0.8;2;Jan 78;57.864;Jul 31;429.91;2345;34;Reich and Richter;1863;0.233;4d10 5s2 5p1;5;13
+50;Tin;Sn;118.71;5;14;solid;tet;Metal;0.69;01. Jul;Jan 96;73.439;7.287;505.21;2875;28;Prehistoric;;0.228;4d10 5s2 5p2;5;14
+51;Antimony;Sb;121.76;5;15;solid;rho;Metalloid;0.76;01. Mai;02. Mai;86.084;6.685;904.05;1860;29;Early historic times;;0.207;4d10 5s2 5p3;5;15
+52;Tellurium;Te;127.6;5;16;solid;hex;Metalloid;0.97;01. Apr;02. Jan;90.096;6.232;722.8;1261;29;von Reichenstein;1782;0.202;4d10 5s2 5p4;5;16
+53;Iodine;I;12.690.447;5;17;solid;orth;Halogen;02. Feb;01. Mrz;Feb 66;104.513;Apr 93;386.65;457.4;24;Courtois;1811;0.214;4d10 5s2 5p5;5;17
+54;Xenon;Xe;131.293;5;18;gas;gas;Noble Gas;;01. Feb;;121.298;0.005887;161.45;165.03;31;Ramsay and Travers;1898;0.158;4d10 5s2 5p6;5;18
+55;Cesium;Cs;1.329.054.519;6;1;solid;;Alkali Metal;01. Jul;03. Mrz;0.79;38.939;1.873;301.7;944;22;Bunsen and Kirchoff;1860;0.242;6s1;6;1
+56;Barium;Ba;137.327;6;2;solid;bcc;Alkaline Earth Metal;01. Apr;02. Aug;0.89;52.117;3.594;1002.15;2170;25;Davy;1808;0.204;6s2;6;2
+57;Lanthanum;La;13.890.547;6;3;solid;hex;Lanthanide;01. Jan;02. Jul;01. Jan;55.769;6.145;1193.15;3737;19;Mosander;1839;0.195;5d1 6s2;8;3
+58;Cerium;Ce;140.116;6;19;solid;fcc;Lanthanide;1;02. Jul;01. Dez;55.387;Jun 77;1071.15;3716;19;Berzelius;1803;0.192;4f1 5d1 6s2;8;4
+59;Praseodymium;Pr;14.090.765;6;20;solid;hex;Lanthanide;1;02. Jul;Jan 13;5.473;6.773;1204.15;3793;15;von Welsbach;1885;0.193;4f3 6s2;8;5
+60;Neodymium;Nd;144.242;6;21;solid;hex;Lanthanide;1;02. Jun;Jan 14;5.525;7.007;1289.15;3347;16;von Welsbach;1885;0.19;4f4 6s2;8;6
+61;Promethium;Pm;145;6;22;artificial;hex;Lanthanide;0.98;02. Jun;Jan 13;5.582;Jul 26;1204.15;3273;14;Marinsky et al.;1945;;4f5 6s2;8;7
+62;Samarium;Sm;150.36;6;23;solid;hex;Lanthanide;0.96;02. Jun;Jan 17;56.437;Jul 52;1345.15;2067;17;Boisbaudran;1879;0.197;4f6 6s2;8;8
+63;Europium;Eu;151.964;6;24;solid;bcc;Lanthanide;0.95;02. Jun;01. Feb;56.704;5.243;1095.15;1802;21;Demarcay;1901;0.182;4f7 6s2;8;9
+64;Gadolinium;Gd;157.25;6;25;solid;hex;Lanthanide;0.94;02. Mai;01. Feb;61.501;7.895;1585.15;3546;17;de Marignac;1880;0.236;4f7 5d1 6s2;8;10
+65;Terbium;Tb;15.892.535;6;26;solid;hex;Lanthanide;0.92;02. Mai;01. Feb;58.638;8.229;1630.15;3503;24;Mosander;1843;0.182;4f9 6s2;8;11
+66;Dysprosium;Dy;162.5;6;27;solid;hex;Lanthanide;0.91;02. Mai;Jan 22;59.389;Aug 55;1680.15;2840;21;de Boisbaudran;1886;0.17;4f10 6s2;8;12
+67;Holmium;Ho;16.493.032;6;28;solid;hex;Lanthanide;0.9;02. Mai;Jan 23;60.215;8.795;1743.15;2993;29;Delafontaine and Soret;1878;0.165;4f11 6s2;8;13
+68;Erbium;Er;167.259;6;29;solid;hex;Lanthanide;0.88;02. Mai;Jan 24;61.077;9.066;1795.15;3503;16;Mosander;1843;0.168;4f12 6s2;8;14
+69;Thulium;Tm;16.893.421;6;30;solid;hex;Lanthanide;0.87;02. Apr;Jan 25;61.843;9.321;1818.15;2223;18;Cleve;1879;0.16;4f13 6s2;8;15
+70;Ytterbium;Yb;173.054;6;31;solid;fcc;Lanthanide;0.86;02. Apr;01. Jan;62.542;6.965;1097.15;1469;16;Marignac;1878;0.155;4f14 6s2;8;16
+71;Lutetium;Lu;1.749.668;6;32;solid;hex;Lanthanide;0.85;02. Mrz;Jan 27;54.259;Sep 84;1936.15;3675;22;Urbain/ von Welsbach;1907;0.154;4f14 5d1 6s2;8;17
+72;Hafnium;Hf;178.49;6;4;solid;hex;Transition Metal;0.71;02. Feb;01. Mrz;68.251;13.31;2500.15;4876;17;Coster and von Hevesy;1923;0.144;4f14 5d2 6s2;6;4
+73;Tantalum;Ta;18.094.788;6;5;solid;bcc;Transition Metal;0.64;02. Jan;01. Mai;75.496;16.654;3269.15;5731;19;Ekeberg;1801;0.14;4f14 5d3 6s2;6;5
+74;Wolfram;W;183.84;6;6;solid;bcc;Transition Metal;0.62;2;Feb 36;7.864;19.25;3680.15;5828;22;J. and F. d'Elhuyar;1783;0.132;4f14 5d4 6s2;6;6
+75;Rhenium;Re;186.207;6;7;solid;hex;Transition Metal;0.56;2;01. Sep;78.335;21. Feb;3453.15;5869;21;Noddack, Berg, and Tacke;1925;0.137;4f14 5d5 6s2;6;7
+76;Osmium;Os;190.23;6;8;solid;hex;Transition Metal;0.63;01. Sep;02. Feb;84.382;22.61;3300.15;5285;19;Tennant;1803;0.13;4f14 5d6 6s2;6;8
+77;Iridium;Ir;192.217;6;9;solid;fcc;Transition Metal;0.63;01. Sep;02. Feb;8.967;22.56;2716.15;4701;25;Tennant;1804;0.131;4f14 5d7 6s2;6;9
+78;Platinum;Pt;195.084;6;10;solid;fcc;Transition Metal;0.63;01. Aug;Feb 28;89.587;21.46;2045.15;4098;32;Ulloa/Wood;1735;0.133;4f14 5d9 6s1;6;10
+79;Gold;Au;196.966.569;6;11;solid;fcc;Transition Metal;0.85;01. Aug;Feb 54;92.255;19.282;1337.73;3129;21;Prehistoric;;0.129;4f14 5d10 6s1;6;11
+80;Mercury;Hg;200.59;6;12;liq;;Transition Metal;1;01. Aug;2;104.375;135.336;234.43;630;26;Prehistoric;;0.14;4f14 5d10 6s2;6;12
+81;Thallium;Tl;2.043.833;6;13;solid;hex;Metal;01. Mai;02. Jan;02. Apr;61.082;Nov 85;577.15;1746;28;Crookes;1861;0.129;4f14 5d10 6s2 6p1;6;13
+82;Lead;Pb;207.2;6;14;solid;fcc;Metal;01. Feb;01. Aug;Feb 33;74.167;11.342;600.75;2022;29;Prehistoric;;0.129;4f14 5d10 6s2 6p2;6;14
+83;Bismuth;Bi;2.089.804;6;15;solid;rho;Metal;1;01. Jun;02. Feb;72.856;9.807;544.67;1837;19;Geoffroy the Younger;1753;0.122;4f14 5d10 6s2 6p3;6;15
+84;Polonium;Po;210;6;16;solid;cub;Metalloid;02. Mrz;01. Mai;2;8.417;Sep 32;527.15;1235;34;Curie;1898;;4f14 5d10 6s2 6p4;6;16
+85;Astatine;At;210;6;17;solid;;Noble Gas;;01. Apr;02. Feb;09. Mrz;7;575.15;610;21;Corson et al.;1940;;4f14 5d10 6s2 6p5;6;17
+86;Radon;Rn;222;6;18;gas;;Alkali Metal;;01. Mrz;;107.485;0.00973;202.15;211.3;20;Dorn;1900;0.094;4f14 5d10 6s2 6p6;6;18
+87;Francium;Fr;223;7;1;solid;bcc;Alkaline Earth Metal;01. Aug;;0.7;40.727;Jan 87;300.15;950;21;Perey;1939;;7s1;7;1
+88;Radium;Ra;226;7;2;solid;bcc;Transition Metal;01. Apr;;0.9;52.784;05. Mai;973.15;2010;15;Pierre and Marie Curie;1898;;7s2;7;2
+89;Actinium;Ac;227;7;3;solid;fcc;Actinide;01. Jan;;01. Jan;Mai 17;10. Jul;1323.15;3471;11;Debierne/Giesel;1899;0.12;6d1 7s2;9;3
+90;Thorium;Th;23.203.806;7;19;solid;fcc;Actinide;0.97;;01. Mrz;63.067;Nov 72;2028.15;5061;12;Berzelius;1828;0.113;6d2 7s2;9;4
+91;Protactinium;Pa;23.103.588;7;20;solid;orth;Actinide;0.78;;01. Mai;Mai 89;15.37;1873.15;4300;14;Hahn and Meitner;1917;;5f2 6d1 7s2;9;5
+92;Uranium;U;23.802.891;7;21;solid;orth;Actinide;0.52;;Jan 38;61.941;18.95;1405.15;4404;15;Peligot;1841;0.116;5f3 6d1 7s2;9;6
+93;Neptunium;Np;237;7;22;artificial;orth;Actinide;0.75;;Jan 36;62.657;20.45;913.15;4273;153;McMillan and Abelson;1940;;5f4 6d1 7s2;9;7
+94;Plutonium;Pu;244;7;23;artificial;mno;Actinide;0.89;;Jan 28;60.262;19.84;913.15;3501;163;Seaborg et al.;1940;;5f6 7s2;9;8
+95;Americium;Am;243;7;24;artificial;hex;Actinide;0.98;;01. Mrz;59.738;13.69;1267.15;2880;133;Seaborg et al.;1944;;5f7 7s2;9;9
+96;Curium;Cm;247;7;25;artificial;hex;Actinide;0.97;;01. Mrz;59.915;13.51;1340.15;3383;133;Seaborg et al.;1944;;;9;10
+97;Berkelium;Bk;247;7;26;artificial;hex;Actinide;0.95;;01. Mrz;61.979;14.79;1259.15;983;83;Seaborg et al.;1949;;;9;11
+98;Californium;Cf;251;7;27;artificial;hex;Actinide;0.93;;01. Mrz;62.817;15. Jan;1925.15;1173;123;Seaborg et al.;1950;;;9;12
+99;Einsteinium;Es;252;7;28;artificial;hex;Actinide;;;01. Mrz;Jun 42;13. Mai;1133.15;;123;Ghiorso et al.;1952;;;9;13
+100;Fermium;Fm;257;7;29;artificial;;Actinide;;;01. Mrz;06. Mai;;;;103;Ghiorso et al.;1953;;;9;14
+101;Mendelevium;Md;258;7;30;artificial;;Actinide;;;01. Mrz;Jun 58;;;;33;Ghiorso et al.;1955;;;9;15
+102;Nobelium;No;259;7;31;artificial;;Actinide;;;01. Mrz;Jun 65;;;;73;Ghiorso et al.;1958;;;9;16
+103;Lawrencium;Lr;262;7;32;artificial;;Actinide;;;;;;;;203;Ghiorso et al.;1961;;;9;17
+104;Rutherfordium;Rf;261;7;4;artificial;;Transactinide;;;;;18. Jan;;;;Ghiorso et al.;1969;;;7;4
+105;Dubnium;Db;262;7;5;artificial;;Transactinide;;;;;39;;;;Ghiorso et al.;1970;;;7;5
+106;Seaborgium;Sg;266;7;6;artificial;;Transactinide;;;;;35;;;;Ghiorso et al.;1974;;;7;6
+107;Bohrium;Bh;264;7;7;artificial;;Transactinide;;;;;37;;;;Armbruster and Münzenberg;1981;;;7;7
+108;Hassium;Hs;267;7;8;artificial;;Transactinide;;;;;41;;;;Armbruster and Münzenberg;1983;;;7;8
+109;Meitnerium;Mt;268;7;9;artificial;;Transactinide;;;;;35;;;;GSI, Darmstadt, West Germany;1982;;;7;9
+110;Darmstadtium ;Ds ;271;7;10;artificial;;Transactinide;;;;;;;;;;;;;7;10
+111;Roentgenium ;Rg ;272;7;11;artificial;;Transactinide;;;;;;;;;;;;;7;11
+112;Copernicium ;Cn ;285;7;12;artificial;;Transactinide;;;;;;;;;;;;;7;12
+113;Ununtrium ;Uut ;284;7;13;artificial;;;;;;;;;;;;;;;7;13
+114;Ununquadium ;Uuq ;289;7;14;artificial;;Transactinide;;;;;;;;;;;;;7;14
+115;Ununpentium ;Uup ;288;7;15;artificial;;;;;;;;;;;;;;;7;15
+116;Ununhexium ;Uuh ;292;7;16;artificial;;Transactinide;;;;;;;;;;;;;7;16
+117;Ununseptium ;Uus ;295;7;17;artificial;;;;;;;;;;;;;;;7;17
+118;Ununoctium ;Uuo ;294;7;18;artificial;;Noble Gas;;;;;;;;;;;;;7;18
