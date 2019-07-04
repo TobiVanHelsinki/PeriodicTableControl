@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PeriodicTableControl.WPF.Properties {
+namespace TobiVanHelsiki.PeriodicTableControl.WPF.Properties {
     
     
     /// <summary>

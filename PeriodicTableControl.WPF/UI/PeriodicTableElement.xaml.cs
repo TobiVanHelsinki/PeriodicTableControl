@@ -1,8 +1,8 @@
-﻿using PeriodicTableControl.Model;
+﻿using TobiVanHelsiki.PeriodicTableControl.Model;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace PeriodicTableControl.UI
+namespace TobiVanHelsiki.PeriodicTableControl.UI
 {
     public partial class PeriodicTableElement : UserControl
     {

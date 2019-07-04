@@ -57,7 +57,7 @@
   <ItemGroup>
     <Compile Include="IO\GeneralIO.cs" />
     <Compile Include="Model\Element.cs" />
-    <Compile Include="UI\PeriodicTable.xaml.cs">
+    <Compile Include="PeriodicTable.xaml.cs">
       <DependentUpon>PeriodicTable.xaml</DependentUpon>
     </Compile>
     <Compile Include="UI\PeriodicTableElement.xaml.cs">
@@ -67,7 +67,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="UI\PeriodicTable.xaml">
+    <Page Include="PeriodicTable.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -95,9 +95,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="packages.config" />
-    <None Include="PeriodicTableofElements.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <EmbeddedResource Include="Data\PeriodicTableofElements.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

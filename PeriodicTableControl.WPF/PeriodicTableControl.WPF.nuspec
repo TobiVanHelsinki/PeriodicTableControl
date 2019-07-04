@@ -6,13 +6,19 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+	<license type="expression">AGPL-3.0-or-later</license>
+    <projectUrl>https://github.com/TobiVanHelsinki/PeriodicTableControl</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/TobiVanHelsinki/PeriodicTableControl/master/Assets/periodic-system-1059755_1280.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>V1</releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>periodicsystem, periodictable, periodic, chemistry, periodensystem, pe, wpf</tags>
+	  <packageTypes>
+        <packageType name="Dependency" />
+    </packageTypes>
+	<dependencies>
+		<dependency id="CsvHelper" version="12.0.0.0"/>
+	</dependencies>
   </metadata>
 </package>

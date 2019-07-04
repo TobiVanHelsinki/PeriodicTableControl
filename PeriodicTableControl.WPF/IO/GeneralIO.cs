@@ -1,17 +1,21 @@
 ﻿using CsvHelper;
-using PeriodicTableControl.Model;
+using TobiVanHelsiki.PeriodicTableControl.Model;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
+using System.Linq;
 
-namespace PeriodicTableControl.WPF.IO
+namespace TobiVanHelsiki.PeriodicTableControl.WPF.IO
 {
     static class GeneralIO
     {
-
         internal static IEnumerable<Element> CreateElements()
         {
             var ret = new List<Element>();
-            using (TextReader fileReader = File.OpenText("PeriodicTableofElements.csv"))
+            var assembly = Assembly.GetExecutingAssembly();
+            var resourceName = assembly.GetManifestResourceNames().Single(str => str.EndsWith("PeriodicTableofElements.csv"));
+            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            using (TextReader fileReader = new StreamReader(stream))
             {
                 var csv = new CsvReader(fileReader);
                 csv.Configuration.HasHeaderRecord = true;

@@ -4,10 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PeriodicTable.TestApp.Wpf"
-        xmlns:ui="clr-namespace:PeriodicTableControl.UI;assembly=PeriodicTableControl.WPF"
+        xmlns:periodictablecontrol="clr-namespace:TobiVanHelsiki.PeriodicTableControl;assembly=PeriodicTableControl.WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <ui:PeriodicTable>
+    <periodictablecontrol:PeriodicTable>
         
-    </ui:PeriodicTable>
+    </periodictablecontrol:PeriodicTable>
 </Window>

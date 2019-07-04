@@ -1,11 +1,12 @@
-﻿using PeriodicTableControl.Model;
-using PeriodicTableControl.WPF.IO;
+﻿using TobiVanHelsiki.PeriodicTableControl.Model;
+using TobiVanHelsiki.PeriodicTableControl.WPF.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using TobiVanHelsiki.PeriodicTableControl.UI;
 
-namespace PeriodicTableControl.UI
+namespace TobiVanHelsiki.PeriodicTableControl
 {
     public partial class PeriodicTable : UserControl
     {
@@ -125,7 +126,7 @@ namespace PeriodicTableControl.UI
         {
             if (sender is PeriodicTableElement pte)
             {
-                HoverSelectionChanged.Invoke(this, pte.MyElement);
+                HoverSelectionChanged?.Invoke(this, pte.MyElement);
             }
         }
 
@@ -133,7 +134,7 @@ namespace PeriodicTableControl.UI
         {
             if (sender is PeriodicTableElement pte)
             {
-                SelectionChanged.Invoke(this, pte.MyElement);
+                SelectionChanged?.Invoke(this, pte.MyElement);
             }
         }
     }

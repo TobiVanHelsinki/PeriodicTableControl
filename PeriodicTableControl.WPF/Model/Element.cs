@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PeriodicTableControl.Model
+namespace TobiVanHelsiki.PeriodicTableControl.Model
 {
     public class Element : INotifyPropertyChanged
 	{
