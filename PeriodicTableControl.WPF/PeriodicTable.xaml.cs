@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using TobiVanHelsiki.PeriodicTableControl.UI;
+using System;
 
 namespace TobiVanHelsiki.PeriodicTableControl
 {
@@ -42,7 +43,46 @@ namespace TobiVanHelsiki.PeriodicTableControl
 
 
         #endregion
+        public Element SelectedElement
+        {
+            get { return (Element)GetValue(SelectedElementProperty); }
+            set {
+                SetValue(SelectedElementProperty, value);
+                SelectionChanged?.Invoke(this, value);
+            }
+        }
+        public static readonly DependencyProperty SelectedElementProperty = DependencyProperty.Register(nameof(SelectedElement), typeof(Element), typeof(PeriodicTable), new PropertyMetadata(null, (sender, e) => (sender as PeriodicTable)?.SelectedElementChanged(e)));
+
+        private void SelectedElementChanged(DependencyPropertyChangedEventArgs e)
+        {
+            if (e.NewValue is Element el)
+            {
+                HighlightElement(el);
+            }
+        }
+
+        private void HighlightElement(Element el)
+        {
+            HighlightElementThere(el, MyPeriodicTable);
+        }
+
+        private void HighlightElementThere(Element el, Panel p)
+        {
+            foreach (var item in p.Children)
+            {
+                if (item is PeriodicTableElement pte)
+                {
+                    pte.Background = pte.MyElement == el ? SystemColors.HighlightBrush : SystemColors.ControlBrush;
+                }
+                else if (item is Panel p2)
+                {
+                    HighlightElementThere(el, p2);
+                }
+            }
+        }
+
         readonly IEnumerable<Element> Elements;
+        
         public PeriodicTable()
         {
             Elements = GeneralIO.CreateElements();
@@ -134,7 +174,19 @@ namespace TobiVanHelsiki.PeriodicTableControl
         {
             if (sender is PeriodicTableElement pte)
             {
-                SelectionChanged?.Invoke(this, pte.MyElement);
+                SelectedElement = pte.MyElement;
+            }
+        }
+
+        public void NextElement()
+        {
+            if (SelectedElement == null || SelectedElement == Elements.LastOrDefault())
+            {
+                SelectedElement = Elements.FirstOrDefault();
+            }
+            else
+            {
+                SelectedElement = Elements.FirstOrDefault(x=>x.Number == SelectedElement.Number + 1);
             }
         }
     }

@@ -3,19 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:TobiVanHelsiki.PeriodicTableControl.UI"
              mc:Ignorable="d">
-        <Grid Margin="5">
-            <Grid.ColumnDefinitions>
-                
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <TextBlock Text="{Binding MyElement.Number}" Grid.Row="0" VerticalAlignment="Top"/>
-            <TextBlock Text="{Binding MyElement.Symbol}" Grid.Row="1" FontWeight="Bold" VerticalAlignment="Center"/>
-            <TextBlock Text="{Binding MyElement.Name}" Grid.Row="2" VerticalAlignment="Bottom"/>
-        </Grid>
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="{Binding MyElement.Number}" Grid.Column="1" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding MyElement.Symbol}" Grid.Column="0" FontWeight="Bold" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding MyElement.Name}" Grid.Row="2" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+    </Grid>
 </UserControl>
