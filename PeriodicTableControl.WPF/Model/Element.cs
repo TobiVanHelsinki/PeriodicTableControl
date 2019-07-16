@@ -82,5 +82,10 @@ namespace TobiVanHelsiki.PeriodicTableControl.Model
             TransitionMetal,
             Unknown
         }
+
+        public override string ToString()
+        {
+            return string.IsNullOrEmpty(Name) ? base.ToString() : Name;
+        }
     }
 }
