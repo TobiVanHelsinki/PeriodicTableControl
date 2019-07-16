@@ -3,11 +3,28 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PeriodicTable.TestApp.Wpf"
         xmlns:periodictablecontrol="clr-namespace:TobiVanHelsiki.PeriodicTableControl;assembly=PeriodicTableControl.WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <periodictablecontrol:PeriodicTable>
-        
-    </periodictablecontrol:PeriodicTable>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <periodictablecontrol:PeriodicTable x:Name="PSE"/>
+        <WrapPanel Grid.Row="1">
+            <CheckBox Content="ShowLanthanidesActinides" IsChecked="{Binding ShowLanthanidesActinides, ElementName=PSE, Mode=TwoWay}"/>
+            <CheckBox Content="Wide" IsChecked="{Binding Wide, ElementName=PSE, Mode=TwoWay}"/>
+            <CheckBox Content="ShowGridLines" IsChecked="{Binding ShowGridLines, ElementName=PSE, Mode=TwoWay}"/>
+            <ListBox>
+                <ListBoxItem Content="Single" Selected="Single_Selected"/>
+                <ListBoxItem Content="Multiple" Selected="Multiple_Selected"/>
+                <ListBoxItem Content="Extendet (Multiple)" Selected="Extendet_Selected"/>
+            </ListBox>
+        </WrapPanel>
+    </Grid>
 </Window>

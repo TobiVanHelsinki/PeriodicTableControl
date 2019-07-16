@@ -10,13 +10,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid x:Name="MyPeriodicTable" ShowGridLines="True"/>
-        <CheckBox Grid.Row="1" Content="ShowLanthanidesActinides" IsChecked="{Binding ShowLanthanidesActinides}"/>
-        <CheckBox Grid.Row="3" Content="Wide" IsChecked="{Binding Wide}"/>
-        <CheckBox Grid.Row="4" Content="ShowGridLines" IsChecked="{Binding ShowGridLines}"/>
     </Grid>
 </UserControl>

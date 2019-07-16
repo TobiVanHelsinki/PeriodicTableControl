@@ -2,8 +2,8 @@
 using System.Runtime.InteropServices;
 using System.Windows;
 
-[assembly: AssemblyVersion("1.3.0.0")]
-[assembly: AssemblyFileVersion("1.3.0.0")]
+[assembly: AssemblyVersion("1.4.0.0")]
+[assembly: AssemblyFileVersion("1.4.0.0")]
 
 [assembly: AssemblyTitle("PeriodicTableControl.WPF")]
 [assembly: AssemblyDescription("A Windows UI Control, that displays the Periodic Table. With a customizable and adaptive Layout! ")]

@@ -12,7 +12,7 @@ namespace TobiVanHelsiki.PeriodicTableControl
     public partial class PeriodicTable : UserControl
     {
         #region Events
-        public delegate void ElementSelectionChangedEventHandler(PeriodicTable sender, Element selectedElement, Element previousElement = null);
+        public delegate void ElementSelectionChangedEventHandler(PeriodicTable sender, IEnumerable<Element> selectedElements);
         public event ElementSelectionChangedEventHandler SelectionChanged;
         public event ElementSelectionChangedEventHandler HoverSelectionChanged;
         #endregion
@@ -43,41 +43,62 @@ namespace TobiVanHelsiki.PeriodicTableControl
 
 
         #endregion
-        public Element SelectedElement
+
+        public SelectionMode SelectionMode
         {
-            get { return (Element)GetValue(SelectedElementProperty); }
-            set {
-                SetValue(SelectedElementProperty, value);
-                SelectionChanged?.Invoke(this, value);
+            get { return (SelectionMode)GetValue(SelectionModeProperty); }
+            set { SetValue(SelectionModeProperty, value); }
+        }
+
+        public static readonly DependencyProperty SelectionModeProperty = DependencyProperty.Register(nameof(SelectionMode), typeof(SelectionMode), typeof(PeriodicTable), new PropertyMetadata(SelectionMode.Single, (sender, e) => (sender as PeriodicTable)?.SelectionModeChanged(e)));
+
+        private void SelectionModeChanged(DependencyPropertyChangedEventArgs e)
+        {
+            if (SelectionMode == SelectionMode.Single && SelectedElements.Count > 1)
+            {
+                SelectedElements = new List<Element>() { SelectedElements.FirstOrDefault() };
             }
         }
-        public static readonly DependencyProperty SelectedElementProperty = DependencyProperty.Register(nameof(SelectedElement), typeof(Element), typeof(PeriodicTable), new PropertyMetadata(null, (sender, e) => (sender as PeriodicTable)?.SelectedElementChanged(e)));
 
-        private void SelectedElementChanged(DependencyPropertyChangedEventArgs e)
+        public IList<Element> SelectedElements
         {
-            if (e.NewValue is Element el)
+            get { return (IList<Element>)GetValue(SelectedElementsProperty); }
+            set { SetValue(SelectedElementsProperty, value); SelectionChanged?.Invoke(this, value); }
+        }
+        public static readonly DependencyProperty SelectedElementsProperty = DependencyProperty.Register(nameof(SelectedElements), typeof(IList<Element>), typeof(PeriodicTable), new PropertyMetadata(new Element[0], (sender, e) => (sender as PeriodicTable)?.SelectedElementsChanged(e)));
+
+        private void SelectedElementsChanged(DependencyPropertyChangedEventArgs e)
+        {
+            if (SelectedElements is null)
             {
-                HighlightElement(el);
+                return;
+            }
+
+            foreach (var item in SelectedElements)
+            {
+                HighlightElement(item);
+            }
+            foreach (var item in Elements.Except(SelectedElements))
+            {
+                UnhighlightElement(item);
             }
         }
 
-        private void HighlightElement(Element el)
-        {
-            HighlightElementThere(el, MyPeriodicTable);
-        }
+        private void UnhighlightElement(Element el) => UnhighlightElementThere(el, MyPeriodicTable);
+        private void HighlightElement(Element el) => HighlightElementThere(el, MyPeriodicTable);
 
-        private void HighlightElementThere(Element el, Panel p)
+        static void UnhighlightElementThere(Element el, Grid p)
         {
-            foreach (var item in p.Children)
+            if (p.Children.OfType<PeriodicTableElement>().FirstOrDefault(x => x.MyElement == el) is PeriodicTableElement pte)
             {
-                if (item is PeriodicTableElement pte)
-                {
-                    pte.Background = pte.MyElement == el ? SystemColors.HighlightBrush : SystemColors.ControlBrush;
-                }
-                else if (item is Panel p2)
-                {
-                    HighlightElementThere(el, p2);
-                }
+                pte.Background = SystemColors.ControlBrush;
+            }
+        }
+        static void HighlightElementThere(Element el, Panel p)
+        {
+            if (p.Children.OfType<PeriodicTableElement>().FirstOrDefault(x => x.MyElement == el) is PeriodicTableElement pte)
+            {
+                pte.Background = SystemColors.HighlightBrush;
             }
         }
 
@@ -166,7 +187,7 @@ namespace TobiVanHelsiki.PeriodicTableControl
         {
             if (sender is PeriodicTableElement pte)
             {
-                HoverSelectionChanged?.Invoke(this, pte.MyElement);
+                HoverSelectionChanged?.Invoke(this, new[] { pte.MyElement });
             }
         }
 
@@ -174,20 +195,45 @@ namespace TobiVanHelsiki.PeriodicTableControl
         {
             if (sender is PeriodicTableElement pte)
             {
-                SelectedElement = pte.MyElement;
+                if (SelectedElements is null)
+                {
+                    SelectedElements = new List<Element>();
+                }
+                if (SelectionMode == SelectionMode.Single)
+                {
+                    if (SelectedElements.Contains(pte.MyElement))
+                    {
+                        SelectedElements = new List<Element>();
+                    }
+                    else
+                    {
+                        SelectedElements = new[] { pte.MyElement };
+                    }
+                }
+                else
+                {
+                    if (SelectedElements.Contains(pte.MyElement))
+                    {
+                        SelectedElements = SelectedElements.Except(new[] { pte.MyElement }).ToList();
+                    }
+                    else
+                    {
+                        SelectedElements = SelectedElements.Append(pte.MyElement).ToList();
+                    }
+                }
             }
         }
 
         public void NextElement()
         {
-            if (SelectedElement == null || SelectedElement == Elements.LastOrDefault())
-            {
-                SelectedElement = Elements.FirstOrDefault();
-            }
-            else
-            {
-                SelectedElement = Elements.FirstOrDefault(x=>x.Number == SelectedElement.Number + 1);
-            }
+            //if (SelectedElement == null || SelectedElement == Elements.LastOrDefault())
+            //{
+            //    SelectedElement = Elements.FirstOrDefault();
+            //}
+            //else
+            //{
+            //    SelectedElement = Elements.FirstOrDefault(x=>x.Number == SelectedElement.Number + 1);
+            //}
         }
     }
 }
