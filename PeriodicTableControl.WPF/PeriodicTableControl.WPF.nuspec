@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>$version$</version>
+    <version>1.4.1.0</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
@@ -11,7 +11,7 @@
     <iconUrl>https://raw.githubusercontent.com/TobiVanHelsinki/PeriodicTableControl/master/Assets/periodic-system-1059755_1280.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>V1</releaseNotes>
+    <releaseNotes>added selection modes</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>periodicsystem, periodictable, periodic, chemistry, periodensystem, pe, wpf</tags>
 	  <packageTypes>

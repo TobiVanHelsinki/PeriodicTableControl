@@ -2,8 +2,8 @@
 using System.Runtime.InteropServices;
 using System.Windows;
 
-[assembly: AssemblyVersion("1.4.0.0")]
-[assembly: AssemblyFileVersion("1.4.0.0")]
+[assembly: AssemblyVersion("1.4.1.0")]
+[assembly: AssemblyFileVersion("1.4.1.0")]
 
 [assembly: AssemblyTitle("PeriodicTableControl.WPF")]
 [assembly: AssemblyDescription("A Windows UI Control, that displays the Periodic Table. With a customizable and adaptive Layout! ")]
@@ -13,10 +13,6 @@ using System.Windows;
 [assembly: AssemblyCopyright("Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-
-// Wenn ComVisible auf "false" festgelegt wird, sind die Typen innerhalb dieser Assembly 
-// für COM-Komponenten unsichtbar.  Wenn Sie auf einen Typ in dieser Assembly von 
-// COM aus zugreifen müssen, sollten Sie das ComVisible-Attribut für diesen Typ auf "True" festlegen.
 [assembly: ComVisible(false)]
 
 //Um mit dem Erstellen lokalisierbarer Anwendungen zu beginnen, legen Sie
